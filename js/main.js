@@ -14,12 +14,12 @@ elFizzBuzzForm.addEventListener("submit", function(evt){
     var inputValue = elFizzBuzzInput.value.trim();
     
     if (inputValue % 3 === 0 && inputValue % 5 === 0){
-        elFizzBuzzResult.textContent = "look it is working i told you. The resilt is FizzBuzz";
+        elFizzBuzzResult.textContent = "Look! It is working. I told you. The resilt is FizzBuzz. Means it can be divided to 3 and 5";
     } else if (inputValue % 3 === 0) {
-        elFizzBuzzResult.textContent = "And now it can be divided only to 3 thus the result is fizz"
+        elFizzBuzzResult.textContent = "And, now it can be divided only to 3 thus the result is fizz"
     } else if (inputValue % 5 === 0 ){
-        elFizzBuzzResult.textContent = "Now it can be diveded only to 5 and the result is Buzz"
+        elFizzBuzzResult.textContent = "Now it can be divided only to 5 and the result is Buzz"
     } else {
-        elFizzBuzzResult.textContent = `${inputValue} can not be diveded neither to 3 nor 5.`
+        elFizzBuzzResult.textContent = `${inputValue} can not be divided neither to 3 nor 5.`
     }
 });
